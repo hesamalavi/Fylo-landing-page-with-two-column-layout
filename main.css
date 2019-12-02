@@ -1,3 +1,180 @@
+* {
+ margin: 0;
+ padding: 0;
+ /* box-sizing: inherit; */
+}
+
+html {
+ /* box-sizing: border-box; */
+}
+
 body {
- color: red;
+ font-family: 'Open Sans', sans-serif;
+}
+
+header,
+h1,
+button {
+ font-family: 'Raleway', sans-serif;
+}
+
+button {
+ background-color: hsl(224, 93%, 58%);
+ color: white;
+ border: none;
+ /* padding: 10px 50px; */
+ width: 205px;
+ height: 35px;
+
+ border-radius: 4px;
+}
+
+#top-input {
+ /* padding: 8px 5px; */
+ width: 200px;
+ height: 25px;
+ margin-right: 5px;
+ margin-bottom: 5px;
+
+ border: 2px solid hsl(0, 0%, 75%);
+ border-radius: 2px;
+ display: block;
+
+}
+
+input[type='email'] :placeholder-shown {
+ text-align: left;
+
+
+}
+
+nav {
+
+ display: inline-block;
+ float: right;
+ margin: 50px 40px 0 0;
+
+}
+
+nav>a {
+ margin-left: 40px;
+ text-decoration: none;
+}
+
+.logo {
+ margin: 40px 0 0 40px;
+}
+
+
+.blockimage>img {
+ width: 40vw;
+ height: auto;
+ float: right;
+ object-fit: cover;
+ /* clear: right; */
+}
+
+.container1,
+.container2>p,
+h1 {
+
+ clear: right;
+}
+
+p {
+ margin-top: 10px;
+ margin-bottom: 10px;
+}
+
+
+
+.container1 {
+ /* box-sizing: border-box; */
+ display: grid;
+ /* grid-template: repeat(2, 1fr)/repeat(2, 1fr); */
+ grid-template: 40% auto/40% auto;
+
+ grid-row-gap: 150px;
+ margin: 10%;
+
+}
+
+#avatar {
+ width: 30px;
+ height: auto;
+ border-radius: 50%;
+
+}
+
+#test {
+ display: inline;
+
+}
+
+#test>p {
+ clear: right;
+
+}
+
+#test>img {
+ float: left;
+
+}
+
+
+.container2 {
+ /* background-image: url(/images/bg-curve-desktop.svg); */
+ display: grid;
+ grid-template: repeat(1, 1fr)/repeat(2, 1fr);
+ grid-gap: 100px;
+ /* margin: -10px; */
+ background: hsl(238, 22%, 44%);
+ padding: 40px;
+ color: white;
+}
+
+#block2contentlink {
+ text-decoration: none;
+ color: hsl(170, 45%, 43%);
+}
+
+#bottom-input {
+ /* padding: 8px 5px; */
+ width: 200px;
+ height: 25px;
+ margin-right: 5px;
+
+ /* border: 2px solid hsl(0, 0%, 75%); */
+ border-radius: 2px;
+ display: inline;
+
+}
+
+.container3 {
+ display: grid;
+ grid-template: repeat(1, auto)/repeat(4, auto);
+ grid-gap: 100px;
+ padding: 90px;
+ color: white;
+ background-color: hsl(243, 87%, 12%);
+ /* margin: 0 -10px; */
+}
+
+#logo-btm {
+ margin-bottom: 15px;
+}
+
+.attribution {
+ background-color: hsl(243, 87%, 12%);
+ size: cover;
+ color: white;
+ margin: 0;
+ padding-bottom: 20px;
+ /* color: red; */
+ /* align-content: center;
+justify-content: center; */
+}
+
+.attribution>a {
+ color: white;
 }
