@@ -376,6 +376,17 @@ p {
 
 @media only screen and (max-width: 433px) {
   nav>a {
-    margin-left: 3px;
+    margin-left: 10px;
+  }
+
+  nav {
+    margin: 20px 10px 0 0;
+    font-size: 13px;
+  }
+
+  .logo {
+    width: 100px;
+    height: auto;
+    margin: 15px 0 15px 15px;
   }
 }
