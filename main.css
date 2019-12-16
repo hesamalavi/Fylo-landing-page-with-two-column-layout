@@ -373,3 +373,9 @@ p {
  }
 
 }
+
+@media only screen and (max-width: 433px) {
+  nav>a {
+    margin-left: 3px;
+  }
+}
